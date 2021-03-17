@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: "#DAE0E6";
 }
 
 .App-logo {
@@ -14,14 +15,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #dae0e6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  padding-top: 100px;
 }
 
 .App-link {
@@ -35,4 +34,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Navbar {
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+}
+
+.MyButton {
+  align-items: center;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  height: 32px;
+  margin-right: 8px;
+  padding: 0 8px;
+  background: #f6f7f8;
+  color: #0079d3;
+}
+.Pressed {
+  background: #c4e1ff;
+}
+
+.Logo {
+  width: 40px;
+  float: left;
+  margin: 5px;
+}
+.ButtonsContainer {
+  align-items: center;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: var(--newCommunityTheme-body);
+  border-bottom: 1px solid var(--newCommunityTheme-line);
+  box-sizing: border-box;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.SearchInput {
+  border-radius: 20px;
+  height: 31px;
+  width: 250px;
+  border: none;
+  padding-left: 10px;
+}
+
+.SearchButton {
+  margin: 10px;
+  padding: 7px;
+  border-radius: 30px;
+  background: #ff4500;
+  color: white;
+  border: none;
+}
+
+.Post {
+  margin: 29px;
+  background: #ffffff;
+  max-width: 533px;
+  border-radius: 15px;
+  text-align: left;
+  padding: 10px;
+  --T68779821: 0 1px 2px #00000033;
+  box-shadow: var(--T68779821);
+}
+.PostContainer {
+  margin: auto;
+  max-width: 600px;
+}
+
+.PostImg {
+  width: 507px;
+  padding: 6px;
+  border-radius: 16px;
 }
