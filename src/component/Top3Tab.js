@@ -32,7 +32,7 @@ const Top3Tab = (props) => {
       </form>
       {loading && <div>Loading...</div>}
       <div className="PostContainer">
-        {posts && posts.map((post) => <Post {...post} />)}
+        {posts && posts.map((post, i) => <Post key={i} {...post} />)}
       </div>
     </div>
   );
